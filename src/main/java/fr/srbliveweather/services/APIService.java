@@ -11,7 +11,7 @@ import java.net.URL;
 
 public class APIService {
     // API key
-    private static String apiKey = "abd0ebdc6db95f60dafa473cd6d7b979";
+    private static String apiKey = "";
 
     /**
      * Call the OpenWeatherMap API
