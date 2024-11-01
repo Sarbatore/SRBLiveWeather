@@ -1,0 +1,26 @@
+name: SRBLiveWeather
+description: 'A live weather plugin for Minecraft servers'
+author: 'Sarbatore'
+version: '1.0-SNAPSHOT'
+main: fr.srbliveweather.SRBLiveWeather
+api-version: '1.20'
+permissions:
+    liveweather.sync:
+        description: Allows players to reload the plugin
+        default: op
+    liveweather.set:
+        description: Allows players to set the city for the live weather
+        default: op
+commands:
+  liveweathersync:
+    description: Sync the weather with the real weather
+    usage: /liveweathersync
+    permission: liveweather.sync
+    aliases:
+      - syncweather
+  liveweatherset:
+    description: Set the city for the live weather
+    usage: /liveweatherset <city>
+    permission: liveweather.set
+    aliases:
+      - setweather

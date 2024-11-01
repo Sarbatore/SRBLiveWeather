@@ -1,0 +1,7 @@
+commands:
+  no-permission: "&cYou do not have permission to use this command."
+  invalid-city: "&cYou must enter a correct city name."
+  liveweatherset:
+    usage: "&cInvalid usage. Correct usage: /liveweatherset <city>"
+    liveweatherset: "&bCity set to &d%city%&b."
+    invalid-city: "&cYou must enter a correct city name."

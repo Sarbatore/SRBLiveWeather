@@ -1,0 +1,5 @@
+fr\srbliveweather\commands\SetWeatherCommand.class
+fr\srbliveweather\commands\SyncCommand.class
+fr\srbliveweather\services\APIService.class
+fr\srbliveweather\SRBLiveWeather.class
+fr\srbliveweather\services\WeatherService.class
